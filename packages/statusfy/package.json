@@ -1,0 +1,47 @@
+{
+  "name": "statusfy",
+  "version": "0.5.0",
+  "description": "A marvelous open source Status Page system",
+  "author": {
+    "name": "Bazzite",
+    "email": "support@bazzite.com",
+    "url": "https://www.bazzite.com"
+  },
+  "license": "Apache-2.0",
+  "main": "statusfy.js",
+  "bin": {
+    "statusfy": "statusfy.js"
+  },
+  "scripts": {
+    "postinstall": "opencollective || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazzite/statusfy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bazzite/statusfy/issues"
+  },
+  "homepage": "https://statusfy.co",
+  "keywords": [
+    "bazzite",
+    "statusfy",
+    "generator",
+    "web-application",
+    "statuspage"
+  ],
+  "dependencies": {
+    "@nuxtjs/opencollective": "0.2.2",
+    "@statusfy/cli": "0.5.0",
+    "@statusfy/core": "0.5.0",
+    "@statusfy/editor": "0.5.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  },
+  "collective": {
+    "url": "https://opencollective.com/statusfy",
+    "logoUrl": "https://opencollective.com/statusfy/logo.txt?reverse=true&variant=variant2"
+  }
+}

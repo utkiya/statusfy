@@ -1,0 +1,15 @@
+# Basic
+*.log
+.temp
+.eslintrc.js
+package-lock.json
+.github
+.statusfy
+test
+
+# Nuxt.js
+.nuxt
+dist
+
+# Demo
+demo
